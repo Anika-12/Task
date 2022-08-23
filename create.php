@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Product</title>
+    <title>Add Item info</title>
  
     <style type="text/css">
         fieldset {
@@ -19,6 +19,7 @@
 <body>
  
 <fieldset>
+    <h1> Item info </h1>
     <legend>Add Item</legend>
  
     <form action="php_action/create.php" method="post">
@@ -38,8 +39,8 @@
                
             </tr>
             <tr>
-                <td><button type="submit">Save Changes</button></td>
-                <td><a href="index.php"><button type="button">Back</button></a></td>
+                <td><button type="submit">Save</button></td>
+                <td><a href="index.php"><button type="button">Cancel</button></a></td>
             </tr>
         </table>
     </form>

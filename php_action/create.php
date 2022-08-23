@@ -9,7 +9,7 @@ if($_POST) {
  
     $sql = "INSERT INTO item (itemname,  unitname, subcategory, active) VALUES ('$itemname', '$unitname', '$subcategory', 1)";
     if($connect->query($sql) === TRUE) {
-        echo "<p>New Record Successfully Created</p>";
+        echo "<p>Item Sucessfully added</p>";
         echo "<a href='../create.php'><button type='button'>Back</button></a>";
         echo "<a href='../index.php'><button type='button'>Home</button></a>";
     } else {

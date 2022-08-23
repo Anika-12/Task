@@ -22,7 +22,8 @@
 <body>
  
 <div class="manageItem">
-    <a href="create.php"><button type="button">Add Item</button></a>
+    <h1>Item info create</h1>
+    <a href="create.php"><button type="button">Add Item Info</button></a>
     <table border="1" cellspacing="0" cellpadding="0">
         <thead>
             <tr>
